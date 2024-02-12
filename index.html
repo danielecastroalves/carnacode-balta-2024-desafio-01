@@ -2,25 +2,45 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/app.css">
-    <title>IMC</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/app.css" />
+  <title>Main</title>
 </head>
 
 <body>
-    <div>ITEM 1</div>
-    <div class="flex flex-column">
-        <div>ITEM 2.1</div>
-        <div>ITEM 2.2</div>
-        <div>ITEM 2.3</div>
+  <div style="margin-bottom: 20px; margin-top: 20px;">
+    <div class="page-header">Cálculo de IMC</div>
+  </div>
+
+  <div>
+    <input class="input-text" type="text" value="Altura" />
+  </div>
+
+  <div>
+    <input class="input-text" type="text" value="Peso" />
+  </div>
+
+  <div>
+    <input class="input-text" type="text" value="Sexo" />
+  </div>
+
+  <div class="checkbox-option-empty" style="margin-bottom: 20px; margin-top: 20px;">
+    <input class="checkbox-empty" type="checkbox">
+    <div class="checkbox-text">
+      Eu tenho 65 anos ou mais
     </div>
-    <div>
-        <input class="input" type="text" />
-    </div>
-    <div>ITEM 4</div>
-    <div>ITEM 5</div>
-    <div>ITEM 6</div>
+  </div>
+
+  <div class="buttons">
+    <button class="button-primary">
+      Calcular meu IMC
+    </button>
+
+    <button class="button-secundary">
+      Entenda o cálculo
+    </button>
+  </div>
 </body>
 
 </html>
